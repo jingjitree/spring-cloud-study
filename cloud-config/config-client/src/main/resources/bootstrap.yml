@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      #激活dev
+      profile: dev
+      uri: http://localhost:8888/
+

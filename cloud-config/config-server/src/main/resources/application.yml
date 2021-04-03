@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/
+          uri: https://gitee.com/jingjitree/SpringcloudConfig
           searchPaths: respo
 #          username:
 #          password:
