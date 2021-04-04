@@ -1,7 +1,13 @@
 spring:
   cloud:
     config:
+      label: master
       #激活dev
       profile: dev
-      uri: http://localhost:8888/
+#      uri: http://localhost:8888/
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
 
